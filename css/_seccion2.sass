@@ -1,0 +1,93 @@
+.seccion2
+	margin: auto
+	width: 100%
+	height: 100%
+	//background-color: rgba(230, 220, 233, 1)
+	background-color: rgba(255, 255, 255, .99)
+	//background: url("../img/fondo.jpg")
+	background-size: auto
+	background-attachment: fixed
+	background-repeat: no-repeat
+	background-position: center
+	div
+		.simbols
+			transform: translate(8.3rem , 0)
+			z-index: 2
+			height: auto
+			.bordes
+				height: 140px
+				width: 140px
+				display: flex
+				align-content: center
+				justify-content: center
+				background: rgba(244, 244, 244, .99)
+				-webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.43)
+				-moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.43)
+				box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.43)
+				border-radius: 4px
+				transition: .7s
+				cursor: pointer
+				&:hover
+					-webkit-box-shadow: 1px 1px 1px -6px rgba(0,0,0,0.73)
+					-moz-box-shadow: 1px 1px 1px -6px rgba(0,0,0,0.73)
+					box-shadow: 1px 1px 1px -6px rgba(0,0,0,0.73)
+					transform: translate(4px, 4px)
+				.iconos
+					font-size: 3rem
+			div
+				.linea
+					max-width: auto
+					height: 0
+					border-radius: 2rem
+					border: 2px solid rgba(10, 240, 2, 1)
+		.mj
+			transform: translate(-7.7rem, 5rem)
+			z-index: 1
+			.laptop
+				max-width: 800px
+				max-height: 550px
+				
+		.contactanos
+			text-decoration: none
+			color: rgba(20, 205, 155, 1)
+			padding: 1rem
+			border: solid 3px rgba(20, 205, 155, 1)
+			background: rgba(244, 244, 244, .9)
+			border-radius: 2px
+			-webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.43)
+			-moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.43)
+			box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.43)
+			transition: .7s
+			&:hover
+				background: rgba(20, 205, 155, 1)
+				color: rgba(255, 255, 255, 1)
+				border: solid 3px rgba(20, 205, 155, 1)
+				-webkit-box-shadow: 1px 1px 1px -6px rgba(0,0,0,0.73)
+				-moz-box-shadow: 1px 1px 1px -6px rgba(0,0,0,0.73)
+				box-shadow: 1px 1px 1px -6px rgba(0,0,0,0.73)
+				transform: translate(5px, 5px)
+
+
+
+
+@media only screen and (max-width: 600px)
+	.seccion2
+		div
+			.mj
+				transform: translate(0rem, 0rem)
+				display: flex
+				justify-content: center
+				margin: auto
+				.laptop
+					width: 270px
+					height: 170px
+			.simbols
+				transform: translate(0rem , 0rem)	
+				.bordes
+					height: 70px
+					width: 70px
+					.iconos
+						font-size: 1.4rem
+					.subico
+						font-size: .8rem
+
