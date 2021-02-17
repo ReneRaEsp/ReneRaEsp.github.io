@@ -120,7 +120,7 @@
 			<!--<div class="logof m-auto col-4 bg-white p-1 d-flex rounded ">
 				<img class="logoF img-fluid" src="img/logo1.png" alt="">		
 			</div>	-->
-      		<p class="text-light mt-4 h6 mr-3">Diseñado y desarrollado por Ramesptop Web design - 2021</p>		
+      		<p class="text-light mt-4 h6 mr-3">Diseñado y Desarrollado por Ramesptop Web Design - 2021</p>		
 		</div>
 	</footer>
 	
