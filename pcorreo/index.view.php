@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="css/estilos.css">
 	<link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
-	<title>Ramesptop web</title>
+	<title>RamSolutions</title>
 	<script src="https://kit.fontawesome.com/31c64c925d.js" crossorigin="anonymous"></script>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Sarabun:wght@500&family=Yusei+Magic&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@
 			<nav class="navbar navbar-expand-lg navbar-light">
   				<div class="container-fluid d-flex justify-content-between">
   					<a class="borde col-1 p-1 bg-white rounded" href="index.html">
-  						<img class="logo img-fluid" src="img/logo1.png" alt="">		
+  						<img class="logo img-fluid" src="img/logo2.png" alt="">		
       				<!--<p class="ram">Ramesptop <br/> <span class="web">Web</span><span class="des"> Design</span></p>-->
     				</a>
      					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,7 +79,7 @@
 			<!--<div class="logof m-auto col-4 bg-white p-1 d-flex rounded ">
 				<img class="logoF img-fluid" src="img/logo1.png" alt="">		
 			</div>	-->
-      		<p class="text-light mt-4 h6 mr-3">Diseñado y desarrollado por Ramesptop Web design - 2021</p>		
+      		<p class="text-light mt-4 h6 mr-3">Diseñado y desarrollado por RamSolutions Web design - 2021</p>		
 		</div>
 	</footer>
 	
