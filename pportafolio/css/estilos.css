@@ -31,6 +31,35 @@
 .seccion1 .galeria {
   margin-top: 10rem;
 }
+.seccion1 .galeria .elementoGaleria {
+  background-size: 400px 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.5s;
+  text-decoration: none;
+}
+.seccion1 .galeria .elementoGaleria:hover {
+  -web-kit-transform: scale(1.3);
+  transform: scale(1.3);
+  z-index: 15;
+}
+.seccion1 .galeria .elementoGaleria .descripcion {
+  background: #052044;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  padding: 7px;
+  border: 3px solid #d1d1d1b7;
+  border-radius: 5px;
+}
+.seccion1 .galeria .elementoGaleria .descripcion:hover {
+  opacity: 0.8;
+}
+.seccion1 .galeria .elementoGaleria .descripcion h2, .seccion1 .galeria .elementoGaleria .descripcion h3, .seccion1 .galeria .elementoGaleria .descripcion h4, .seccion1 .galeria .elementoGaleria .descripcion h5 {
+  text-underline: none;
+  color: white;
+}
 .seccion1 .galeria .uno {
   background: url("../../img/uno.png");
   background-size: 400px 200px;
@@ -41,6 +70,7 @@
 .seccion1 .galeria .uno:hover {
   -web-kit-transform: scale(1.3);
   transform: scale(1.3);
+  z-index: 15;
 }
 .seccion1 .galeria .dos {
   background: url("../../img/dos.png");
@@ -52,6 +82,7 @@
 .seccion1 .galeria .dos:hover {
   -web-kit-transform: scale(1.3);
   transform: scale(1.3);
+  z-index: 15;
 }
 .seccion1 .galeria .tres {
   background: url("../../img/tres.png");
@@ -63,6 +94,7 @@
 .seccion1 .galeria .tres:hover {
   -web-kit-transform: scale(1.3);
   transform: scale(1.3);
+  z-index: 15;
 }
 .seccion1 .galeria .cuatro {
   background: url("../../img/cuatro.png");
@@ -74,6 +106,7 @@
 .seccion1 .galeria .cuatro:hover {
   -web-kit-transform: scale(1.3);
   transform: scale(1.3);
+  z-index: 15;
 }
 .seccion1 .galeria .cinco {
   background: url("../../img/cinco.png");
@@ -85,6 +118,7 @@
 .seccion1 .galeria .cinco:hover {
   -web-kit-transform: scale(1.3);
   transform: scale(1.3);
+  z-index: 15;
 }
 .seccion1 .galeria .seis {
   background: url("../../img/seis.png");
@@ -96,6 +130,7 @@
 .seccion1 .galeria .seis:hover {
   -web-kit-transform: scale(1.3);
   transform: scale(1.3);
+  z-index: 15;
 }
 .seccion1 .galeria .siete {
   background: url("../../img/siete.png");
@@ -107,6 +142,7 @@
 .seccion1 .galeria .siete:hover {
   -web-kit-transform: scale(1.3);
   transform: scale(1.3);
+  z-index: 15;
 }
 .seccion1 .galeria .ocho {
   background: url("../../img/ocho.png");
@@ -118,6 +154,7 @@
 .seccion1 .galeria .ocho:hover {
   -web-kit-transform: scale(1.3);
   transform: scale(1.3);
+  z-index: 15;
 }
 .seccion1 .galeria .nueve {
   background: url("../../img/nueve.png");
@@ -129,6 +166,7 @@
 .seccion1 .galeria .nueve:hover {
   -web-kit-transform: scale(1.3);
   transform: scale(1.3);
+  z-index: 15;
 }
 .seccion1 .galeria .diez {
   background: url("../../img/diez.png");
@@ -140,6 +178,7 @@
 .seccion1 .galeria .diez:hover {
   -web-kit-transform: scale(1.3);
   transform: scale(1.3);
+  z-index: 15;
 }
 .seccion1 .galeria .once {
   background: url("../../img/once.png");
@@ -151,6 +190,19 @@
 .seccion1 .galeria .once:hover {
   -web-kit-transform: scale(1.3);
   transform: scale(1.3);
+  z-index: 15;
+}
+.seccion1 .galeria .doce {
+  background: url("../../img/doce.png");
+  background-size: 400px 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+.seccion1 .galeria .doce:hover {
+  -web-kit-transform: scale(1.3);
+  transform: scale(1.3);
+  z-index: 15;
 }
 
 .seccion2 {
