@@ -190,9 +190,14 @@ button.toast-close-button {
     width: 25em;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('fondo1.jpg');
-  background-size: 100vw 150vh;
+  background: url('fondo1.jpg');
+  background-size: 150%;
+  height: 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
