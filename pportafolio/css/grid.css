@@ -5,9 +5,11 @@
 	width: 100%;
 	height: auto;
 	grid-template-areas: "uno  	 doce  once  diez"
-						 "seis   nueve siete ocho"
-						 "cuatro cinco tres  dos";
-	grid-template-rows: repeat(3, 170px);
+						 "trece   nueve siete ocho"
+						 "cuatro cinco tres  seis"
+						 "dos catorce quince dieciseis";
+
+	grid-template-rows: repeat(4, 170px);
 	grid-template-columns: repeat(4, 1fr);
 
 }
@@ -23,6 +25,10 @@
 .seccion1 .galeria .diez   {  grid-area: diez;  }
 .seccion1 .galeria .once   {  grid-area: once;  }
 .seccion1 .galeria .doce   {  grid-area: doce;  }
+.seccion1 .galeria .trece  {  grid-area: trece;  }
+.seccion1 .galeria .catorce {  grid-area: catorce;  }
+.seccion1 .galeria .quince   {  grid-area: quince;  }
+.seccion1 .galeria .dieciseis   {  grid-area: dieciseis;  }
 
 @media (max-width: 568px) {
 	.seccion1 .galeria {
@@ -31,9 +37,11 @@
 						 	 "cinco  seis"
 						 	 "siete  ocho"
 						 	 "nueve  diez"
-							 "once   doce";
+							 "once   doce"
+							 "trece  catorce"
+							 "quince dieciseis";
 	    
-	    grid-template-rows: repeat(6, 300px);
+	    grid-template-rows: repeat(8, 300px);
 	    grid-template-columns: repeat(2, 50%);
 	    grid-row-gap: .7rem;
 	}
@@ -51,9 +59,13 @@
 						 	 "nueve"
 							 "diez"
 							 "once"
-							 "doce";
+							 "doce"
+							 "trece"
+							 "catorce"
+							 "quince"
+							 "dieciseis";
 	    
-	    grid-template-rows: repeat(12, 250px);
+	    grid-template-rows: repeat(16, 250px);
 	    grid-template-columns: repeat(1, 1fr);
 	    grid-row-gap: .5rem;
 	}
