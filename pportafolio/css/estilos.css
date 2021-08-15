@@ -180,9 +180,9 @@
         transform: scale(1.3);
         z-index: 15; }
     .seccion1 .galeria .catorce {
-      background: url("../../img/doce.png");
+      background: url("../../img/catorce.png");
       background-size: 400px 200px;
-      background-position: center;
+      background-position: top;
       background-repeat: no-repeat;
       transition: 0.5s; }
       .seccion1 .galeria .catorce:hover {
