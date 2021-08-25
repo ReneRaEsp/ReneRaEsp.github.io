@@ -4,10 +4,10 @@
 	grid-row-gap: 4rem;
 	width: 100%;
 	height: auto;
-	grid-template-areas: "quince  trece  once  diez"
-						 "doce   nueve siete ocho"
-						 "cuatro cinco tres  seis"
-						 "dos catorce uno dieciseis";
+	grid-template-areas: "quince  trece    once   dieciseis"
+						 "doce    nueve    siete  ocho"
+						 "cuatro  catorce  tres   seis"
+						 "dos     cinco    uno 	  diez";
 
 	grid-template-rows: repeat(4, 170px);
 	grid-template-columns: repeat(4, 1fr);
