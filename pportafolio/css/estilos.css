@@ -209,6 +209,46 @@
         -web-kit-transform: scale(1.3);
         transform: scale(1.3);
         z-index: 15; }
+    .seccion1 .galeria .diecisiete {
+      background: url("../../img/diecisiete.png");
+      background-size: 400px 180px;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0.5s; }
+      .seccion1 .galeria .diecisiete:hover {
+        -web-kit-transform: scale(1.3);
+        transform: scale(1.3);
+        z-index: 15; }
+    .seccion1 .galeria .dieciocho {
+      background: url("../../img/dieciocho.png");
+      background-size: 400px 200px;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0.5s; }
+      .seccion1 .galeria .dieciocho:hover {
+        -web-kit-transform: scale(1.3);
+        transform: scale(1.3);
+        z-index: 15; }
+    .seccion1 .galeria .diecinueve {
+      background: url("../../img/dieciseis.png");
+      background-size: 400px 200px;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0.5s; }
+      .seccion1 .galeria .diecinueve:hover {
+        -web-kit-transform: scale(1.3);
+        transform: scale(1.3);
+        z-index: 15; }
+    .seccion1 .galeria .veinte {
+      background: url("../../img/dieciseis.png");
+      background-size: 400px 200px;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0.5s; }
+      .seccion1 .galeria .veinte:hover {
+        -web-kit-transform: scale(1.3);
+        transform: scale(1.3);
+        z-index: 15; }
 
 .seccion2 {
   height: 700px;
