@@ -5,10 +5,10 @@
 	width: 100%;
 	height: auto;
 	grid-template-areas: "quince     trece     once       dieciseis"
-						 "doce       diecisiete     siete      ocho"
+						 "cinco       diecisiete     siete      ocho"
 						 "nueve 	 catorce   tres       seis"
 						 "cuatro	 dieciocho     uno 	      diez"
-						 "dos		 cinco 	diecinueve veinte";
+						 "dos		 doce 	diecinueve veinte";
  
 	grid-template-rows: repeat(5, 170px);
 	grid-template-columns: repeat(4, 1fr);
@@ -39,11 +39,11 @@
 	.seccion1 .galeria {
 		grid-template-areas: "quince     trece"
 						 	 "once       dieciseis"
-						 	 "doce       nueve"
+						 	 "cinco       nueve"
 						 	 "siete      ocho"
 						 	 "cuatro     catorce"
 							 "tres       seis"
-							 "diecisiete cinco"
+							 "diecisiete doce"
 							 "uno    	 diez"
 							 "dos		 dieciocho"
 							 "diecinueve veinte";
@@ -59,7 +59,7 @@
 							 "trece"
 						 	 "once"  
 						 	 "dieciseis"
-						 	 "doce"  
+						 	 "cinco"  
 						 	 "nueve"
 						 	 "siete"
 						 	 "ocho"
@@ -68,7 +68,7 @@
 							 "tres"
 							 "diecisiete"
 							 "dos"
-							 "cinco"
+							 "doce"
 							 "uno"
 							 "diez"
 							 "seis"
