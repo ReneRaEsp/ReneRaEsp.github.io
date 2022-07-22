@@ -266,20 +266,25 @@ header .textos h3 {
 }
 
 .main .mapa {
-	width: 1320px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 	overflow: hidden;
-	position: absolute;
-	margin-left: -120px;
-	
 }
 
 .main .mapa iframe {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
 	max-height: 600px;
-	
 }
 
 iframe {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100%
 }
 
